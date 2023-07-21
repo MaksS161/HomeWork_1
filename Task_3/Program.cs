@@ -4,10 +4,10 @@
 пример, если с клавиатуры введено 1, 5, 7, 8 тогда нужно
 сформировать число 1578.
  */
-Console.Write("Введите четре цифры ");
-var a = Convert.ToInt32(Console.Read());
-var b = Convert.ToInt32(Console.Read());
-var c = Convert.ToInt32(Console.Read());
-var d = Convert.ToInt32(Console.Read());
-
-Console.Write($"Введеное число {a=a}{b}{c}{d}" );
+Console.WriteLine ("Введите четре цифры ");
+var a = Console.ReadLine();
+var b = Console.ReadLine();
+var c = Console.ReadLine();
+var d = Console.ReadLine();
+string res;
+Console.WriteLine($"Введеное число {res = a + b + c + d}");
