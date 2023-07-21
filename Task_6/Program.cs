@@ -11,7 +11,7 @@ Console.WriteLine("из шкалы Фарингейте в шкалу Цельс
 Console.WriteLine("из шкалы Цельсия в шкалу Фарингейта, нажмите цифру '2' ");
 var _select = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите температуру :");
-double _temp = Convert.ToDouble(Console.ReadLine());
+var _temp = Convert.ToDouble(Console.ReadLine());
 if (_select== 1 & _temp < -459.67) { Console.WriteLine("Не корректные данные!"); }
 else if (_select== 2 & _temp < -273.15) { Console.WriteLine("Не корректные данные!"); }
 else if (_select == 1)
